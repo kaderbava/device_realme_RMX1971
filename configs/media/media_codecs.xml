@@ -143,6 +143,7 @@ Only the three quirks included above are recognized at this point:
             <Limit name="performance-point-3840x2160" value="30" />
             <Limit name="performance-point-1920x1080" value="120" />
             <Limit name="performance-point-1280x720" value="240" />
+            <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.encoder.vp8" type="video/x-vnd.on2.vp8" >
             <Quirk name="requires-allocate-on-input-ports" />
@@ -159,6 +160,7 @@ Only the three quirks included above are recognized at this point:
             <Limit name="performance-point-3840x2160" value="30" />
             <Limit name="performance-point-1920x1080" value="120" />
             <Limit name="performance-point-1280x720" value="240" />
+            <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.encoder.hevc" type="video/hevc" >
             <Quirk name="requires-allocate-on-input-ports" />
@@ -175,6 +177,7 @@ Only the three quirks included above are recognized at this point:
             <Limit name="performance-point-3840x2160" value="30" />
             <Limit name="performance-point-1920x1080" value="120" />
             <Limit name="performance-point-1280x720" value="240" />
+            <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
         <!-- Video Software -->
         <MediaCodec name="OMX.qcom.video.encoder.h263sw" type="video/3gpp" >
@@ -189,6 +192,7 @@ Only the three quirks included above are recognized at this point:
             <Limit name="frame-rate" range="1-30" />
             <Limit name="concurrent-instances" max="16" />
             <Limit name="performance-point-720x480" value="30" />
+            <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.encoder.mpeg4sw" type="video/mp4v-es" >
              <Quirk name="requires-allocate-on-input-ports" />
@@ -202,6 +206,7 @@ Only the three quirks included above are recognized at this point:
              <Limit name="frame-rate" range="1-30" />
              <Limit name="concurrent-instances" max="16" />
              <Limit name="performance-point-1280x720" value="30" />
+             <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
     </Encoders>
     <Decoders>
@@ -215,12 +220,13 @@ Only the three quirks included above are recognized at this point:
             <Limit name="blocks-per-second" min="24" max="979200" />
             <Limit name="bitrate" range="1-100000000" />
             <Limit name="frame-rate" range="1-240" />
-            <Feature name="adaptive-playback" />
             <Limit name="concurrent-instances" max="16" />
             <Limit name="performance-point-4096x2160" value="24" />
             <Limit name="performance-point-3840x2160" value="30" />
             <Limit name="performance-point-1920x1080" value="120" />
             <Limit name="performance-point-1280x720" value="240" />
+            <Feature name="adaptive-playback" />
+            <Feature name="can-swap-width-height" required="true" />
             <!-- Limit name="performance-point-720x480" value="240" /> -->
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.decoder.avc.secure" type="video/avc" >
@@ -232,12 +238,13 @@ Only the three quirks included above are recognized at this point:
             <Limit name="blocks-per-second" min="24" max="972000" />
             <Limit name="bitrate" range="1-35000000" />
             <Limit name="frame-rate" range="1-30" />
-            <Feature name="adaptive-playback" />
-            <Feature name="secure-playback" required="true" />
             <Limit name="concurrent-instances" max="6" />
             <Limit name="performance-point-4096x2160" value="24" />
             <Limit name="performance-point-3840x2160" value="30" />
             <Limit name="performance-point-1920x1080" value="60" />
+            <Feature name="adaptive-playback" />            
+            <Feature name="can-swap-width-height" required="true" />
+            <Feature name="secure-playback" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.decoder.mpeg2" type="video/mpeg2" >
             <Quirk name="requires-allocate-on-input-ports" />
@@ -248,9 +255,10 @@ Only the three quirks included above are recognized at this point:
             <Limit name="blocks-per-second" min="24" max="244800" />
             <Limit name="bitrate" range="1-40000000" />
             <Limit name="frame-rate" range="1-30" />
-            <Feature name="adaptive-playback" />
             <Limit name="concurrent-instances" max="16" />
             <Limit name="performance-point-1920x1088" value="30" />
+            <Feature name="adaptive-playback" />
+            <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.decoder.mpeg2.secure" type="video/mpeg2" >
             <Quirk name="requires-allocate-on-input-ports" />
@@ -261,10 +269,11 @@ Only the three quirks included above are recognized at this point:
             <Limit name="blocks-per-second" min="24" max="244800" />
             <Limit name="bitrate" range="1-35000000" />
             <Limit name="frame-rate" range="1-30" />
-            <Feature name="adaptive-playback" />
-            <Feature name="secure-playback" required="true" />
             <Limit name="concurrent-instances" max="6" />
             <Limit name="performance-point-1920x1088" value="30" />
+            <Feature name="adaptive-playback" />
+            <Feature name="can-swap-width-height" required="true" />
+            <Feature name="secure-playback" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.decoder.vp8" type="video/x-vnd.on2.vp8" >
             <Quirk name="requires-allocate-on-input-ports" />
@@ -274,13 +283,14 @@ Only the three quirks included above are recognized at this point:
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" min="24" max="979200" />
             <Limit name="bitrate" range="1-100000000" />
-            <Limit name="frame-rate" range="1-240" />
-            <Feature name="adaptive-playback" />
+            <Limit name="frame-rate" range="1-240" />            
             <Limit name="concurrent-instances" max="16" />
             <Limit name="performance-point-4096x2160" value="24" />
             <Limit name="performance-point-3840x2160" value="30" />
             <Limit name="performance-point-1920x1080" value="120" />
             <Limit name="performance-point-1280x720" value="240" />
+            <Feature name="adaptive-playback" />
+            <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.decoder.hevc" type="video/hevc" >
             <Quirk name="requires-allocate-on-input-ports" />
@@ -291,12 +301,13 @@ Only the three quirks included above are recognized at this point:
             <Limit name="blocks-per-second" min="24" max="979200" />
             <Limit name="bitrate" range="1-100000000" />
             <Limit name="frame-rate" range="1-240" />
-            <Feature name="adaptive-playback" />
             <Limit name="concurrent-instances" max="16" />
             <Limit name="performance-point-4096x2160" value="24" />
             <Limit name="performance-point-3840x2160" value="30" />
             <Limit name="performance-point-1920x1080" value="120" />
             <Limit name="performance-point-1280x720" value="240" />
+            <Feature name="adaptive-playback" />
+            <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.decoder.hevc.secure" type="video/hevc" >
             <Quirk name="requires-allocate-on-input-ports" />
@@ -307,12 +318,13 @@ Only the three quirks included above are recognized at this point:
             <Limit name="blocks-per-second" min="24" max="972000" />
             <Limit name="bitrate" range="1-35000000" />
             <Limit name="frame-rate" range="1-30" />
-            <Feature name="adaptive-playback" />
-            <Feature name="secure-playback" required="true" />
             <Limit name="concurrent-instances" max="6" />
             <Limit name="performance-point-4096x2160" value="24" />
             <Limit name="performance-point-3840x2160" value="30" />
             <Limit name="performance-point-1920x1080" value="60" />
+            <Feature name="adaptive-playback" />
+            <Feature name="can-swap-width-height" required="true" />
+            <Feature name="secure-playback" required="true" />
         </MediaCodec>
         <!-- Video Software -->
         <MediaCodec name="OMX.qti.video.decoder.h263sw" type="video/3gpp" >
@@ -324,9 +336,10 @@ Only the three quirks included above are recognized at this point:
              <Limit name="blocks-per-second" min="1" max="48600" />
              <Limit name="bitrate" range="1-16000000" />
              <Limit name="frame-rate" range="1-30" />
-             <Feature name="adaptive-playback" />
              <Limit name="concurrent-instances" max="16" />
              <Limit name="performance-point-720x480" value="30" />
+             <Feature name="adaptive-playback" />
+             <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.qti.video.decoder.mpeg4sw" type="video/mp4v-es">
              <Quirk name="requires-allocate-on-input-ports" />
@@ -339,6 +352,7 @@ Only the three quirks included above are recognized at this point:
                 <Limit name="frame-rate" range="1-30" />
                 <Limit name="concurrent-instances" max="16" />
                 <Limit name="performance-point-1920x1088" value="30" />
+                <Feature name="can-swap-width-height" required="true" />
         </MediaCodec>
         <MediaCodec name="OMX.google.opus.decoder" type="audio/opus" update="true" rank="100"/>
     </Decoders>
