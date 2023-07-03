@@ -50,6 +50,13 @@ ro.vendor.display.sensortype=2
 # Fingerprint
 fingerprint.nocleanup=true
 
+# Fling
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+
+# FM
+vendor.hw.fm.init=0
+
 # Gboard
 ro.com.google.ime.kb_pad_port_b=1
 ro.com.google.ime.kb_pad_port_l=7
