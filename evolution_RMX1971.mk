@@ -7,7 +7,6 @@
 # Inherit some common Evolution X stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_BUILD_APERTURE_CAMERA := true
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device
