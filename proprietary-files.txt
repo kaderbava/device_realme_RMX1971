@@ -193,6 +193,7 @@ vendor/lib/camera/fdconfigvideo.bin
 vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so
 vendor/lib/libOPPORectify.so
 vendor/lib/libOccluDetect.so
 vendor/lib/libOppoAPSMemMgr.so
@@ -463,10 +464,12 @@ vendor/lib/camera/com.qti.sensor.sp2509v.so
 vendor/lib/camera/com.qti.sensormodule.holitech_gc2375h.bin
 vendor/lib/camera/com.qti.sensormodule.holitech_sp2509v.bin
 vendor/lib/camera/com.qti.sensormodule.sunny_hi846.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_imx586.bin
 vendor/lib/camera/com.qti.sensormodule.trulyi2c20_imx471.bin
 vendor/lib/camera/com.qti.tuned.holitech_gc2375h.bin
 vendor/lib/camera/com.qti.tuned.holitech_sp2509v.bin
 vendor/lib/camera/com.qti.tuned.sunny_hi846.bin
+vendor/lib/camera/com.qti.tuned.sunny_imx586.bin
 vendor/lib/camera/com.qti.tuned.truly_imx471.bin
 vendor/lib64/camera/com.qti.sensor.gc2375h.so
 vendor/lib64/camera/com.qti.sensor.gc5035.so
@@ -483,24 +486,13 @@ vendor/lib64/camera/com.qti.sensor.sp2509v.so
 vendor/lib64/camera/com.qti.sensormodule.holitech_gc2375h.bin
 vendor/lib64/camera/com.qti.sensormodule.holitech_sp2509v.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_hi846.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx586.bin
 vendor/lib64/camera/com.qti.sensormodule.trulyi2c20_imx471.bin
 vendor/lib64/camera/com.qti.tuned.holitech_gc2375h.bin
 vendor/lib64/camera/com.qti.tuned.holitech_sp2509v.bin
 vendor/lib64/camera/com.qti.tuned.sunny_hi846.bin
+vendor/lib64/camera/com.qti.tuned.sunny_imx586.bin
 vendor/lib64/camera/com.qti.tuned.truly_imx471.bin
-
-# Camera (Device)
-vendor/lib/camera/com.qti.sensormodule.qtech_s5kgw1.bin
-vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1.bin
-vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1_evt0_2.bin
-vendor/lib/camera/com.qti.tuned.qtech_s5kgw1.bin
-vendor/lib/camera/com.qti.tuned.sunny_s5kgw1.bin
-vendor/lib/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so
-vendor/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_evt0_2.bin
-vendor/lib64/camera/com.qti.tuned.qtech_s5kgw1.bin
-vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
 
 # Camera Firmware
 vendor/firmware/CAMERA_ICP.elf
@@ -521,7 +513,9 @@ vendor/lib64/libsysmon_cdsp_skel.so
 vendor/bin/hvdcp_opti
 
 # Charger Firmware
-odm/firmware/fastchg/19651/oplus_vooc_fw.bin
+odm/firmware/fastchg/18621/oplus_vooc_fw.bin
+odm/firmware/fastchg/19691/oplus_vooc_fw.bin
+odm/firmware/fastchg/19691/oplus_vooc_fw_n76e.bin
 
 # CNE
 -vendor/app/CneApp/CneApp.apk
@@ -768,45 +762,43 @@ system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|4422f5912f3614468ccc06a2cce528a152828023
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|17e86e9a2054db733d955fcf1066f6e06a44fb21
 
-# Fingerprint - From Q
-vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
+# Fingerprint
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
+odm/lib/hw/fingerprint.goodix_G2.default.so
+odm/lib/hw/fingerprint.goodix_G3.default.so
+odm/lib/anc.hal.so
+odm/lib/libgf_hal_G2.so
+odm/lib/libgf_hal_G3.so
+odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
+odm/lib/vendor.oplus.hardware.biometrics.fingerprintservice@1.0.so
+odm/lib64/hw/fingerprint.goodix_G2.default.so
+odm/lib64/hw/fingerprint.goodix_G3.default.so
+odm/lib64/anc.hal.so
+odm/lib64/libgf_hal_G2.so
+odm/lib64/libgf_hal_G3.so
+odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
+odm/lib64/vendor.oplus.hardware.biometrics.fingerprintservice@1.0.so
 vendor/bin/qfp-daemon
-vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/permissions/qti_fingerprint_interface.xml
-vendor/lib/hw/fingerprint.goodix_G2.default.so
-vendor/lib/hw/fingerprint.goodix_G3.default.so
 vendor/lib/libarm_proxy_skel.so
-vendor/lib/libgf_hal_G2.so
-vendor/lib/libgf_hal_G3.so
 vendor/lib/libhvx_proxy_stub.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/hw/fingerprint.goodix_G2.default.so
-vendor/lib64/hw/fingerprint.goodix_G3.default.so
-vendor/lib64/android.frameworks.fingerprintservice@1.0.so
 vendor/lib64/libarm_proxy_skel.so
-vendor/lib64/libgf_hal_G2.so
-vendor/lib64/libgf_hal_G3.so
 vendor/lib64/libhvx_proxy_stub.so
-vendor/lib64/libhypnusclient.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
-# Fingerprint Firmware - From Q
-vendor/firmware/goodixfp.b00
-vendor/firmware/goodixfp.b01
-vendor/firmware/goodixfp.b02
-vendor/firmware/goodixfp.b03
-vendor/firmware/goodixfp.b04
-vendor/firmware/goodixfp.b05
-vendor/firmware/goodixfp.b06
-vendor/firmware/goodixfp.b07
-vendor/firmware/goodixfp.mdt
-
-# Fingerprint Helper - From Q
-vendor/lib/vendor.oppo.hardware.commondcs@1.0.so
-vendor/lib/vendor.oppo.hardware.hypnus@1.0.so
-vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so
-vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so
+# Fingerprint Firmware
+odm/vendor/firmware/a_fp.b00
+odm/vendor/firmware/a_fp.b01
+odm/vendor/firmware/a_fp.b02
+odm/vendor/firmware/a_fp.b03
+odm/vendor/firmware/a_fp.b04
+odm/vendor/firmware/a_fp.b05
+odm/vendor/firmware/a_fp.b06
+odm/vendor/firmware/a_fp.b07
+odm/vendor/firmware/a_fp.mdt
 
 # GPS - from Nokia/Phoenix_00WW/PNX_sprout:11/RKQ1.200906.002/00WW_6_21F:user/release-keys
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti|bd3d5174f69cf65047c8d8b159554515b0f3d022
@@ -1371,8 +1363,6 @@ vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
 # Sensors
-odm/lib/oplus.sensors.ssc.so
-odm/lib64/oplus.sensors.ssc.so
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
 vendor/etc/init/init.vendor.sensors.rc
@@ -1421,9 +1411,11 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Touchpanel Firmware
-odm/firmware/tp/19651/FW_S3706_SAMSUNG.img
-odm/firmware/tp/19651/FW_S3706_SAMSUNG_FAE.img
-odm/firmware/tp/19651/LIMIT_S3706_SAMSUNG.img
+odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM.img
+odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM_TEST.img
+odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM.img
+odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_FAE.img
+odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_TEST.img
 
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.qti
