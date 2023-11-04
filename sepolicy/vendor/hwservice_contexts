@@ -15,6 +15,9 @@ vendor.nxp.nxpese::INxpEse                                      u:object_r:nfc_h
 # Dcs
 vendor.oplus.hardware.commondcs::ICommonDcsHalService                             u:object_r:dcs_hwservice:s0
 
+# ORMS
+vendor.oplus.hardware.orms::IOrmsHalProxy    u:object_r:vendor_hal_orms_hwservice:s0
+
 # Radio
 vendor.oplus.hardware.appradio::IOplusAppRadio          u:object_r:opporadio_hwservice:s0
 vendor.oplus.hardware.radio::IOplusRadio          u:object_r:opporadio_hwservice:s0
