@@ -27,7 +27,7 @@
     OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
     IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 -->
-<!-- project:19651 -->
+<!-- project:19691 -->
 
 <device name="Android">
   <!-- Most values are the incremental current used by a feature,
@@ -176,7 +176,7 @@
   </array>
 
   <!-- This is the battery capacity in mAh (measured at nominal voltage) -->
-  <item name="battery.capacity">4000</item>
+  <item name="battery.capacity">4050</item>
 
   <!-- Wifi related values. -->
   <!-- Idle Receive current for wifi radio in mA. 0 by default-->
