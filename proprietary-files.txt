@@ -1363,6 +1363,8 @@ vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
 # Sensors
+odm/lib/oplus.sensors.ssc.so
+odm/lib64/oplus.sensors.ssc.so
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
 vendor/etc/init/init.vendor.sensors.rc
