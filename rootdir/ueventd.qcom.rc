@@ -485,3 +485,9 @@ firmware_directories /mnt/vendor/persist/ /vendor/firmware_mnt/image/
 
 # Charger
 /sys/class/power_supply/battery  mmi_charging_enable    0660    system  system
+
+# Fingerprint
+/sys/devices/platform/soc/soc:fpc_fpc1020*			irq		0700  system system
+/sys/devices/platform/soc/soc:fpc_fpc1020*			irq_enable		0700  system system
+/sys/devices/platform/soc/soc:fpc_fpc1020*			wakelock_enable		0700  system system
+/sys/devices/platform/soc/soc:fpc_fpc1020*			regulator_enable		0700  system system
