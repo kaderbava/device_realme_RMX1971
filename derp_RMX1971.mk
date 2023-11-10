@@ -4,19 +4,22 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Evolution X stuff
+# Inherit some common DerpFest stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_BUILD_APERTURE_CAMERA := true
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+TARGET_NOT_USES_BLUR := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Official-ify
+DERP_BUILDTYPE := Official
+
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1971
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := evolution_RMX1971
+PRODUCT_NAME := derp_RMX1971
 PRODUCT_MODEL := RMX1971
 
 PRODUCT_SYSTEM_NAME := RMX1971
