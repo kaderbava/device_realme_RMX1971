@@ -33,3 +33,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := realme/RMX1971/RMX1971:11/RKQ1.201217.002/1623376276806:user/release-keys
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
