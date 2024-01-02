@@ -4,17 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common DerpFest stuff
+# Inherit some common LineageOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_NOT_USES_BLUR := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-
-# Official-ify
-DERP_BUILDTYPE := Official
 
 # Viper
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
@@ -22,7 +18,7 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1971
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := derp_RMX1971
+PRODUCT_NAME := lineage_RMX1971
 PRODUCT_MODEL := RMX1971
 
 PRODUCT_SYSTEM_NAME := RMX1971
