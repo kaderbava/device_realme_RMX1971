@@ -1420,11 +1420,8 @@ odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_FAE.img
 odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_TEST.img
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal@2.0-service.qti
 vendor/bin/thermal-engine
-vendor/etc/init/android.hardware.thermal@2.0-service.qti.rc
 vendor/etc/init/init_thermal-engine.rc
--vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml
 vendor/etc/thermal-engine.conf
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
