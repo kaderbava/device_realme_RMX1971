@@ -1321,4 +1321,7 @@
          it causes the device to wake up. The default is false. -->
     <bool name="config_lidControlsSleep">true</bool>
 
+    <!-- Package that contains udfps animation customization or empty to disable -->
+    <string name="config_udfps_animation_customization_package"></string>
+
 </resources>
