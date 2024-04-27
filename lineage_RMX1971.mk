@@ -4,9 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common LineageOS stuff
+# Inherit some common risingOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device
