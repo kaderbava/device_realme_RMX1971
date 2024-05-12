@@ -17,9 +17,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Official-ify
 DERP_BUILDTYPE := Official
 
-# Viper
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1971
 PRODUCT_MANUFACTURER := realme
