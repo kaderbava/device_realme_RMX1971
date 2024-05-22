@@ -133,29 +133,6 @@
             </intent-filter>
         </service>
         <service
-            android:name="org.device.RealmeParts.DCModeTileService"
-            android:icon="@drawable/ic_dc_tile"
-            android:label="@string/tile_dc_mode"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
-            android:exported="true">
-            <intent-filter>
-                <action
-                    android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-        <service
-            android:name="org.device.RealmeParts.HBMModeTileService"
-            android:icon="@drawable/ic_hbm_tile"
-            android:label="@string/tile_hbm_mode"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
-            android:exported="true">
-            <intent-filter>
-                <action
-                    android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-        <service android:name="org.device.RealmeParts.AutoHighBrightnessModeService" />
-        <service
             android:name="org.device.RealmeParts.OtgToggleService"
             android:icon="@drawable/ic_otg_tile"
             android:label="@string/tile_otg_mode"

@@ -17,26 +17,11 @@
     <string name="misc_title">Impostazioni varie</string>
     <string name="touch">Touchscreen</string>
 
-    <!-- DC dimming -->
-    <string name="dc_mode_summary">Riduci lo sfarfallio dello schermo quando la luminosità è bassa</string>
-    <string name="dc_mode_title">Anti sfarfallio</string>
-    <string name="tile_dc_mode">Anti sfarfallio</string>
-    <!-- HBM mode -->
-    <string name="hbm_mode_summary">"Incrementa la luminosità per una maggiore visibilità all'esterno"</string>
-    <string name="hbm_mode_title">Alta luminosità</string>
-    <string name="tile_hbm_mode">Alta luminosità</string>
-    <string name="hbm_autobrightness_summary"></string>
-    <string name="hbm_autobrightness_title">Alta luminosità automatica</string>
-    <string name="hbm_autobrightness_threshold_summary"></string>
-    <string name="hbm_autobrightness_threshold_title">"Soglia per l'alta luminosità automatica (lux)"</string>
-    <!-- srgb mode -->
-    <string name="srgb_mode_summary">Modalità sRGB per un display con colori più semplici</string>
-    <string name="srgb_mode_title">Modaità sRGB</string>
-    <string name="tile_srgb_mode">sRGB</string>
     <!-- otg mode -->
     <string name="otg_mode_summary">"Abilita l'uscita USB-OTG per fornire energia a dispositivi come pen-drive o cuffie"</string>
     <string name="otg_mode_title">Abilita USB-OTG</string>
     <string name="tile_otg_mode">USB-OTG</string>
+
     <!-- game mode -->
     <string name="game_mode_summary">Incrementa la frequenza di campionamento dei tocchi sullo schermo</string>
     <string name="game_mode_title">Modalità gaming</string>
@@ -158,31 +143,15 @@
     <string name="kcal_hue">Hue</string>
     <string name="kcal_value">Valore</string>
 
-    <!-- Spectrum Profiles -->
-    <string name="spectrum_profile_title">Spectrum</string>
-    <string name="spectrum_title">Profili spectrum</string>
-    <string name="spectrum_summary">Scegli il tuo profilo spectrum</string>
-    <string name="spectrum_dialogTitle">Scegli il tuo profilo spectrum</string>
-
-    <!-- Values for Spectrum Presets -->
-    <string name="spectrum_performance">Performance</string>
-    <string name="spectrum_battery">Batteria</string>
-    <string name="spectrum_gaming">Gaming</string>
-    <string name="spectrum_balance">Bilanciato</string>
-
     <!-- Audio -->
     <string name="audio_title">Audio</string>
 
-    <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Valore: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Predefinito</string>
-    <string name="custom_seekbar_default_value_to_set">Valore predefinito: <xliff:g id="v">%s</xliff:g>\nPremi a lungo per impostare</string>
-    <string name="custom_seekbar_default_value_is_set">Ripristinati i valori di default</string>
     <string name="switch_bar_on">On</string>
     <string name="switch_bar_off">Off</string>
 
     <string name="audio_gain_settings">Amplificazione audio</string>
     <string name="gain_summary">Aumenta il volume dei dispositivi audio</string>
+
     <!-- Audio amplification -->
     <string name="headphone_gain">Guadagno in cuffia</string>
     <string name="microphone_gain">Guadagno del microfono</string>
