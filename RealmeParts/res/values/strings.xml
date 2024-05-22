@@ -21,20 +21,6 @@
     <string name="display_title">Display</string>
     <string name="touch">Touchscreen</string>
 
-    <!-- DC dimming -->
-    <string name="dc_mode_summary">Reduces screen flicker while brightness is low</string>
-    <string name="dc_mode_title">DC-Dimming</string>
-    <string name="tile_dc_mode">DC-Dimming</string>
-
-    <!-- HBM mode -->
-    <string name="hbm_mode_summary">Peak brightness for better visibility in outdoors</string>
-    <string name="hbm_mode_title">High brightness mode</string>
-    <string name="tile_hbm_mode">High brightness mode</string>
-    <string name="hbm_autobrightness_summary"></string>
-    <string name="hbm_autobrightness_title">Automatic High brightness mode</string>
-    <string name="hbm_autobrightness_threshold_summary"></string>
-    <string name="hbm_autobrightness_threshold_title">Automatic High brightness mode threshold (lux)</string>
-
     <!-- otg mode -->
     <string name="otg_mode_summary">Enable USB-OTG power supply for external headphones and flash drives</string>
     <string name="otg_mode_title">Enable USB-OTG</string>
