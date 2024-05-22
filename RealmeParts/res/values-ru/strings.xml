@@ -19,18 +19,11 @@
     <string name="touch">сенсорный экран</string>
     <string name="display_title">Экран</string>                                                                              
 
-    <!-- DC dimming -->
-    <string name="dc_mode_summary">Уменьшает мерцание экрана при низкой яркости</string>
-    <string name="dc_mode_title">DC-Dimming</string>
-    <string name="tile_dc_mode">DC-Dimming</string>
-    <!-- HBM mode -->
-    <string name="hbm_mode_summary">Максимальная яркость для лучшей видимости</string>
-    <string name="hbm_mode_title">Режим высокой яркости </string>
-    <string name="tile_hbm_mode">Режим высокой яркости </string>
     <!-- otg mode -->
     <string name="otg_mode_summary">Для подключения внешних USB устройств</string>
     <string name="otg_mode_title">Включить USB-OTG</string>
     <string name="tile_otg_mode">USB-OTG</string>
+
     <!-- game mode -->
     <string name="game_mode_summary">Повышение частоты опроса сенсорного экрана </string>
     <string name="game_mode_title">Игровой режим</string>

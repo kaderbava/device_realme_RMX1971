@@ -39,28 +39,6 @@
     <PreferenceCategory
             android:title="@string/display_title">
 
-        <SwitchPreferenceCompat
-            android:key="dc"
-            android:summary="@string/dc_mode_summary"
-            android:title="@string/dc_mode_title" />
-
-        <SwitchPreferenceCompat
-            android:key="hbm"
-            android:summary="@string/hbm_mode_summary"
-            android:title="@string/hbm_mode_title"
-            android:defaultValue="false" />
-
-        <SwitchPreferenceCompat
-            android:key="hbm_autobrightness"
-            android:summary="@string/hbm_autobrightness_summary"
-            android:title="@string/hbm_autobrightness_title" />
-
-        <org.device.RealmeParts.HBMAutobrightnessThresholdPreference
-            android:key="hbm_autobrightness_threshould"
-            android:title="@string/hbm_autobrightness_threshold_title"
-            android:summary="@string/hbm_autobrightness_threshold_summary" />
-
-
          <PreferenceScreen
                 android:key="kcal"
                 android:fragment="org.device.RealmeParts.kcal.DisplayCalibration"
@@ -71,7 +49,6 @@
 
     <PreferenceCategory
             android:title="@string/touch">
-
 
         <SwitchPreferenceCompat
             android:key="game"

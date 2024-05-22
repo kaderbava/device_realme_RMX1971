@@ -38,10 +38,8 @@ import org.device.RealmeParts.vibrator.utils.VibrateFileUtils;
 
 public class Startup extends BroadcastReceiver {
 
-    private boolean mHBM = false;
     private static final String TAG = "BootReceiver";
     private static final String ONE_TIME_TUNABLE_RESTORE = "hardware_tunable_restored";
-    private static boolean mServiceEnabled = false;
 
     private void restore(String file, boolean enabled) {
         if (file == null) {
@@ -79,13 +77,8 @@ public class Startup extends BroadcastReceiver {
         Intent kcalIntent  = new Intent(context , KcalService.class);
         context.startService(kcalIntent);
 
-        enabled = sharedPrefs.getBoolean(RealmeParts.KEY_DC_SWITCH, false);
-        restore(DCModeSwitch.getFile(), enabled);
-        enabled = sharedPrefs.getBoolean(RealmeParts.KEY_HBM_SWITCH, false);
-        restore(HBMModeSwitch.getFile(), enabled);
         enabled = sharedPrefs.getBoolean(RealmeParts.KEY_OTG_SWITCH, false);
         restore(OTGModeSwitch.getFile(), enabled);
-        enableService(context);
 
         int gain = Settings.Secure.getInt(context.getContentResolver(),
                 SoundControlSettings.PREF_HEADPHONE_GAIN, 4);
@@ -113,24 +106,4 @@ public class Startup extends BroadcastReceiver {
         preferences.edit().putBoolean(ONE_TIME_TUNABLE_RESTORE, true).apply();
 
         }
-
-    private static void startService(Context context) {
-        context.startServiceAsUser(new Intent(context, AutoHighBrightnessModeService.class),
-                UserHandle.CURRENT);
-        mServiceEnabled = true;
-    }
-
-    private static void stopService(Context context) {
-        mServiceEnabled = false;
-        context.stopServiceAsUser(new Intent(context, AutoHighBrightnessModeService.class),
-                UserHandle.CURRENT);
-    }
-
-    public static void enableService(Context context) {
-        if (RealmeParts.isHBMAutobrightnessEnabled(context) && !mServiceEnabled) {
-            startService(context);
-        } else if (!RealmeParts.isHBMAutobrightnessEnabled(context) && mServiceEnabled) {
-            stopService(context);
-        }
-    }
     }

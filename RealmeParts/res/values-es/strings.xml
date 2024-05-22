@@ -19,18 +19,11 @@
     <string name="touch">Touchscreen</string>
     <string name="display_title">Display</string>
 
-    <!-- DC dimming -->
-    <string name="dc_mode_summary">Disminuye el parpadeo de la pantalla con brillo bajo</string>
-    <string name="dc_mode_title">DC-Dimming</string>
-    <string name="tile_dc_mode">DC-Dimming</string>
-    <!-- HBM mode -->
-    <string name="hbm_mode_summary">Brillo maximo para mejor visibilidad</string>
-    <string name="hbm_mode_title">Modo de brillo alto </string>
-    <string name="tile_hbm_mode">Modo de brillo alto </string>
     <!-- otg mode -->
     <string name="otg_mode_summary">Para conectar dispositivos USB externos</string>
     <string name="otg_mode_title">Habilitar USB-OTG</string>
     <string name="tile_otg_mode">USB-OTG</string>
+
     <!-- game mode -->
     <string name="game_mode_summary">Aumenta la frecuencia de respuesta de la pantalla tactil </string>
     <string name="game_mode_title">Modo juego</string>
@@ -110,7 +103,6 @@
     <!-- Gesto de retroalimentacion tactil --> 
     <string name="touchscreen_gesture_haptic_feedback">Retroalimentacion tactil</string>
     <string name="touchscreen_gesture_haptic_feedback_summary">Vibrar al detectar un gesto</string>
-
 
     <!-- Kcal -->
     <string name="kcal_title">Control del color de la pantalla</string>
