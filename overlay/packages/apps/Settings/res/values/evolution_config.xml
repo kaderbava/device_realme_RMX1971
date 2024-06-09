@@ -41,4 +41,11 @@
          should be either LOW (1) or HIGH (3).
     -->
     <integer name="config_vibration_supported_intensity_levels">3</integer>
+
+    <!-- Whether to show double tap ambient settings -->
+    <bool name="config_supports_double_tap_ambient" translatable="false">true</bool>
+
+    <!-- Whether to show volume steps settings -->
+    <bool name="config_supports_volume_steps" translatable="false">true</bool>
+
 </resources>
