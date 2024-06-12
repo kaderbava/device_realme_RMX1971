@@ -204,6 +204,7 @@ persist.sys.binary_xml=false
 
 # USB
 vendor.usb.product_string=realme 5 Pro
+ro.usb.uvc.enabled=true
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss
