@@ -483,9 +483,6 @@ firmware_directories /mnt/vendor/persist/ /vendor/firmware_mnt/image/
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_scale                   0664    system  system
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_scale_available         0664    system  system
 
-# Charger
-/sys/class/power_supply/battery  mmi_charging_enable    0660    system  system
-
 # Fingerprint
 /sys/devices/platform/soc/soc:fpc_fpc1020*			irq		0700  system system
 /sys/devices/platform/soc/soc:fpc_fpc1020*			irq_enable		0700  system system
