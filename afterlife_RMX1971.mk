@@ -4,19 +4,21 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Evolution X stuff
+# Inherit some common AfterlifeOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_MINI_GAPPS := true
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Official-ify
+AFTERLIFE_MAINTAINER := Bava7325
+
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1971
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := evolution_RMX1971
+PRODUCT_NAME := afterlife_RMX1971
 PRODUCT_MODEL := RMX1971
 
 PRODUCT_SYSTEM_NAME := RMX1971
