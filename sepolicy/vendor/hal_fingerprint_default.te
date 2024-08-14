@@ -13,6 +13,9 @@ allow hal_fingerprint_default sysfs_hal_fingerprint_default:file rw_file_perms;
 allow hal_fingerprint_default proc_touchpanel:dir search;
 allow hal_fingerprint_default proc_touchpanel:file rw_file_perms;
 
+allow hal_fingerprint_default sysfs_graphics:dir search;
+allow hal_fingerprint_default sysfs_graphics:file rw_file_perms;
+
 get_prop(hal_fingerprint_default, oppo_debug_prop);
 get_prop(hal_fingerprint_default, adsprpc_prop);
 
