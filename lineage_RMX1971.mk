@@ -7,6 +7,7 @@
 # Inherit some common Evolution X stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_MINI_GAPPS := true
+BUILD_SEEDVAULT := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device
