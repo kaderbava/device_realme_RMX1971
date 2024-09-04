@@ -7,6 +7,8 @@
 # Inherit some common risingOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
