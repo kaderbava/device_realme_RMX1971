@@ -14,6 +14,8 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Official-ify
 AFTERLIFE_MAINTAINER := Bava7325
+TARGET_USE_ECHO := true
+TARGET_SUPPORTS_BLUR := true
 
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1971
@@ -36,6 +38,3 @@ BUILD_FINGERPRINT := realme/RMX1971/RMX1971:11/RKQ1.201217.002/1623376276806:use
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
-
-# Sign builds
-PRODUCT_DEFAULT_DEV_CERTIFICATE := .android-certs/releasekey
