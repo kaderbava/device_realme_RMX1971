@@ -4,22 +4,18 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common DerpFest stuff
+# Inherit some common Pixelage stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_SUPPORTS_CALL_RECORDING := true
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
+$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Official-ify
-DERP_BUILDTYPE := Official
-
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1971
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := derp_RMX1971
+PRODUCT_NAME := pixelage_RMX1971
 PRODUCT_MODEL := RMX1971
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
@@ -31,3 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX1971 \
     SystemDevice=RMX1971 \
     SystemName=RMX1971
+
+# Sign builds
+PRODUCT_DEFAULT_DEV_CERTIFICATE := .android-certs/releasekey

@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_RMX1971.mk
+    $(LOCAL_DIR)/pixelage_RMX1971.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_RMX1971-userdebug \
-    derp_RMX1971-eng
+    pixelage_RMX1971-user \
+    pixelage_RMX1971-userdebug \
+    pixelage_RMX1971-eng
