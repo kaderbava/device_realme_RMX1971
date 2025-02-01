@@ -12,6 +12,11 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from RMX1971 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Matrixx
+MATRIXX_CHIPSET := SDM712
+MATRIXX_BATTERY := 4000mAh
+MATRIXX_DISPLAY := 1080x2340
+
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1971
 PRODUCT_MANUFACTURER := realme
