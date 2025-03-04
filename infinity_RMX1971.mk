@@ -4,12 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Pixelage stuff
+# Inherit some common InfinityX stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
-PIXELAGE_MAINTAINER := KaderBava
-$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
+INFINITY_MAINTAINER := KaderBava
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -17,7 +17,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1971
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := pixelage_RMX1971
+PRODUCT_NAME := infinity_RMX1971
 PRODUCT_MODEL := RMX1971
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo

@@ -243,10 +243,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_PACKAGES += \
     libminijail \
@@ -419,9 +415,6 @@ PRODUCT_COPY_FILES += \
 # Remove Unwanted Packages
 PRODUCT_PACKAGES += \
     RemovePackages
-
-# Scudo
-PRODUCT_USE_SCUDO := true
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
