@@ -18,8 +18,6 @@ $(call inherit-product, vendor/realme/RMX1971/RMX1971-vendor.mk)
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
-PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
-RELAX_USES_LIBRARY_CHECK := true
 OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 
