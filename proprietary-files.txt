@@ -509,14 +509,14 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|17e86e9a2054db7
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
-odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
+odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so;MODULE_SUFFIX=_odm
 odm/lib/vendor.oplus.hardware.biometrics.fingerprintservice@1.0.so
 odm/lib64/hw/fingerprint.goodix_G2.default.so
 odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/anc.hal.so
 odm/lib64/libgf_hal_G2.so
 odm/lib64/libgf_hal_G3.so
-odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
+odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so;MODULE_SUFFIX=_odm
 odm/lib64/vendor.oplus.hardware.biometrics.fingerprintservice@1.0.so
 vendor/bin/qfp-daemon
 vendor/etc/permissions/qti_fingerprint_interface.xml
