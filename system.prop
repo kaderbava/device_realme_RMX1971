@@ -153,3 +153,6 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 # Wi-Fi display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Enable Vulkan for HWUI
+ro.hwui.use_vulkan=true
