@@ -160,3 +160,6 @@ ro.infinity.soc=Snapdragon 712
 ro.infinity.battery=4035 mAh 
 ro.infinity.display=1080 x 2340, 60 Hz
 ro.infinity.camera=48MP + 8MP + 2MP + 2MP
+
+# Enable Vulkan for HWUI
+ro.hwui.use_vulkan=true
