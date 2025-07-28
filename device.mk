@@ -191,6 +191,10 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/battery/mmi_charging_enable)
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm
+
 # Media
 PRODUCT_PACKAGES += \
     libminijail \
@@ -336,6 +340,9 @@ PRODUCT_PACKAGES += \
 # Remove Unwanted Packages
 PRODUCT_PACKAGES += \
     RemovePackages
+
+# Scudo
+PRODUCT_USE_SCUDO := true
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \

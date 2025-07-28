@@ -10,6 +10,7 @@ persist.camera.HAL3.enabled=1
 ro.camera.relight.enable=0
 ro.camera.attr.detect.enable=1
 camera.disable_zsl_mode=true
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture,org.lineageos.aperture.dev
 
 # Charger
 ro.charger.enable_suspend=true
@@ -35,9 +36,7 @@ dalvik.vm.systemuicompilerfilter=speed
 ro.vendor.qti.am.reschedule_service=true
 ro.sys.fw.dex2oat_thread_count=8
 dalvik.vm.boot-dex2oat-threads=8
-dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.dex2oat-filter=speed
-dalvik.vm.dex2oat-threads=8
 dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.image-dex2oat-threads=8
 
