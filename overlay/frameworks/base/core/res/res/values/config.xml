@@ -1263,18 +1263,9 @@
         <item>us.zoom.videomeetings</item>
     </string-array>
 
-    <!-- The list of package IDs that are allowed to skip camera high frame rate checks. -->
-    <string-array name="config_cameraHFRPrivAppList" translatable="false">
-        <item>com.android.camera</item>
-        <item>org.lineageos.aperture</item>
-    </string-array>
-
     <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
          manually by the user. Off by default, since the expected haptic feedback may not be
          available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
-
-    <!-- Package that contains udfps animation customization or empty to disable -->
-    <string name="config_udfps_animation_customization_package"></string>
 
 </resources>
