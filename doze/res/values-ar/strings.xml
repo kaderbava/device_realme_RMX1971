@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+               (C) 2017 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
+    <string name="summary_empty" translatable="false"></string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">تشغيل</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">إيقاف</string>
+
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">إعدادات متقدمة</string>
+
+    <!-- Ambient settings -->
+    <string name="ambient_enable">استخدام الشاشة المحيطة</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_title">الشاشة المحيطة</string>
+    <string name="ambient_display_enable_title">الشاشة المحيطة</string>
+    <string name="ambient_display_enable_summary">إيقاظ الشاشة عند تلقي الإشعارات</string>
+    <string name="ambient_display_gestures_title">إيماءات الشاشة المحيطة</string>
+    <string name="ambient_display_gestures_summary">إيماءات إضافية لإيقاظ الشاشة</string>
+    <string name="ambient_display_summary">إيقاظ الشاشة عند تلقي الإشعارات</string>
+    <string name="ambient_display_summary_on">سيتم إيقاظ الشاشة عند تلقي الإشعارات</string>
+    <string name="ambient_display_summary_off">لن يتم إيقاظ الشاشة عند تلقي الإشعارات</string>
+    <string name="ambient_display_always_on_title">التشغيل الدائم</string>
+    <string name="ambient_display_always_on_summary">عرض الوقت وأيقونات الإشعارات ومعلومات أخرى. يزيد من استهلاك البطارية.</string>
+
+    <!-- Tilt sensor -->
+    <string name="tilt_sensor_title">مستشعر الإمالة</string>
+
+    <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">مستشعر الحمل</string>
+
+    <!-- Motion sensor -->
+    <string name="motion_sensor_title">مستشعر الحركة</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">مستشعر التقارب</string>
+
+    <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">عند حمل الجهاز</string>
+    <string name="pick_up_gesture_summary">عرض الإشعارات عند حمل الجهاز</string>
+
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">وضع الجيب</string>
+    <string name="pocket_gesture_summary">عرض الإشعارات عند إخراج الجهاز من الجيب</string>
+
+    <!-- Motion gesture -->
+    <string name="motion_gesture_title">حركة الجهاز</string>
+    <string name="motion_gesture_summary">عرض الإشعارات عند تحرك الجهاز</string>
+
+    <!-- Smart wake gesture -->
+    <string name="smart_wake_gesture_title">الإيقاظ الذكي</string>
+    <string name="smart_wake_gesture_summary">عرض الإشعارات عند الحركة الخفيفة للجهاز وإيقاظ الشاشة عند حمله</string>
+
+    <!-- Dialog texts -->
+    <string name="dialog_ok">موافق</string>
+
+    <!-- Help texts -->
+    <string name="doze_settings_help_title">مساعدة</string>
+    <string name="doze_settings_help_text">تستخدم هذه الميزات أحداث المستشعرات لعرض إشعار خاطف على الشاشة المحيطة. يتم تمكين المستشعر المختار فقط عند تلقي الجهاز لإشعار، مما يساعد على تقليل استهلاك البطارية. هناك أيضًا خيار لتمكين المستشعر المختار بمجرد إطفاء الشاشة، وهذا سيؤدي إلى استهلاك أعلى للبطارية.</string>
+</resources>
