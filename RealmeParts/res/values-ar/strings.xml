@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">إضافات Realme</string>
+    <string name="device_summary">إعدادات خاصة بأجهزة Realme</string>
+    <string name="customize_title">تخصيص</string>
+    <string name="misc_title">إعدادات متنوعة</string>
+    <string name="display_title">الشاشة</string>
+    <string name="touch">شاشة اللمس</string>
+
+    <!-- otg mode -->
+    <string name="otg_mode_summary">تفعيل منفذ USB-OTG لتوصيل الملحقات الخارجية</string>
+    <string name="otg_mode_title">تفعيل USB-OTG</string>
+    <string name="tile_otg_mode">تفعيل USB-OTG</string>
+
+    <!-- game mode -->
+    <string name="game_mode_summary">زيادة سرعة استجابة اللمس</string>
+    <string name="game_mode_title">وضع الألعاب</string>
+    <string name="tile_game_mode">وضع الألعاب</string>
+
+    <!-- TouchScreen gestures -->
+    <string name="dlg_ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="reset_message">إعادة تعيين كل الإعدادات إلى الوضع الافتراضي؟</string>
+    <string name="group_applications">التطبيقات</string>
+    <string name="select_custom_app_title">اختر تطبيقًا مخصصًا</string>
+    <string name="gestures_dashboard_summary">إيماءات بسيطة على الشاشة وهي مغلقة</string>
+    <string name="enable_gestures_title">تفعيل الإيماءات</string>
+    <string name="enable_gestures_summary">تفعيل إيماءات الشاشة المغلقة</string>
+    <string name="gestures_title">الإيماءات</string>
+    <string name="gesture_double_tap_title">إيماءة النقر المزدوج</string>
+    <string name="gesture_w_title">إيماءة حرف W</string>	
+    <string name="gesture_m_title">إيماءة حرف M</string>
+    <string name="gesture_s_title">إيماءة حرف S</string>
+    <string name="gesture_circle_title">إيماءة الدائرة</string>
+    <string name="gesture_two_swipe_title">إيماءة السحب بإصبعين</string>
+    <string name="gesture_up_arrow_title">إيماءة السهم لأعلى</string>
+    <string name="gesture_down_arrow_title">إيماءة السهم لأسفل</string>
+    <string name="gesture_left_arrow_title">إيماءة السهم لليسار</string>
+    <string name="gesture_right_arrow_title">إيماءة السهم لليمين</string>
+    <string name="gesture_swipe_up_title">إيماءة السحب لأعلى</string>
+    <string name="gesture_swipe_down_title">إيماءة السحب لأسفل</string>
+    <string name="gesture_swipe_left_title">إيماءة السحب لليسار</string>
+    <string name="gesture_swipe_right_title">إيماءة السحب لليمين</string>
+    <string name="KharaMeParts_summary">إيماءات وتحسينات</string>
+    <string name="screen_off_gestures">إيماءات الشاشة المغلقة</string>
+    <string name="enable_dt2w_title">تفعيل النقر المزدوج</string>
+    <string name="enable_dt2w_summary">تفعيل إيماءات النقر المزدوج</string>
+    <string name="dt2w_title">النقر المزدوج</string>
+    <string name="haptic_feedback_title">الاستجابة اللمسية (الاهتزاز)</string>
+
+    <!-- Shortcut actions -->
+    <string name="shortcut_action_none">لا شيء</string>
+    <string name="shortcut_action_app">تطبيق مخصص</string>
+    <string name="shortcut_action_assist">المساعد الصوتي</string>
+    <string name="shortcut_action_ring_vib">رنين/اهتزاز</string>
+    <string name="shortcut_action_ring_silent">رنين/صامت</string>
+    <string name="shortcut_action_ring_vib_silent">رنين/اهتزاز/صامت</string>
+    <string name="shortcut_action_camera">الكاميرا</string>
+    <string name="shortcut_action_media_next">الموسيقى - المقطع التالي</string>
+    <string name="shortcut_action_media_play_pause">الموسيقى - تشغيل/إيقاف</string>
+    <string name="shortcut_action_media_previous">الموسيقى - المقطع السابق</string>
+    <string name="shortcut_action_wake_device">إيقاظ الجهاز</string>
+    <string name="shortcut_action_torch">الكشاف</string>
+    <string name="shortcut_action_longpress">ضغطة مطولة:</string>
+    <string name="shortcut_action_select_action_longpress">اختر إجراء الضغطة المطولة:</string>
+    <string name="shortcut_action_select_action">اختر الإجراء:</string>
+    <string name="shortcut_action_select_action_newaction">اختر إجراءً جديدًا:</string>
+    <string name="shortcut_action_reset">إعادة تعيين</string>
+    <string name="shortcut_action_add">إضافة</string>
+    <string name="shortcut_action_reset_message">هل تريد إعادة تعيين كل الإدخالات إلى الوضع الافتراضي؟</string>
+    <string name="shortcut_action_max">تم الوصول إلى الحد الأقصى للإدخالات</string>
+    <string name="shortcut_action_warning">تحذير</string>
+    <string name="shortcut_action_warning_message">لا يمكن حذف الإدخال الأخير</string>
+    <string name="shortcut_action_required_warning_message">لا يمكن حذف الأزرار المطلوبة</string>
+    <string name="shortcut_action_disable_message">معطل\nأضف إدخالاً لتفعيل هذه الميزة</string>
+    <string name="shortcut_image_not_valid">التطبيق المختار لم يُرجع أيقونة صالحة أو لا يدعم قص الصور. استخدم تطبيقًا آخر.</string>
+    <string name="shortcut_duplicate_entry">لا يمكن إضافة الإجراء المختار مرتين</string>
+    <string name="shortcut_action_help_shortcut">اختصار</string>
+    <string name="shortcut_action_help_button">زر</string>
+    <string name="shortcut_action_help_app">تطبيق</string>
+    <string name="shortcut_action_help_icon">، بينما يؤدي تحديد الأيقونة إلى إظهار خيارات التخصيص</string>
+    <string name="shortcut_action_help_main">لإضافة %1$s، حدد أيقونة الإضافة. بمجرد إضافة %1$s، سيؤدي تحديد الصف إلى تغيير الهدف%2$s\n\nلإزالة %1$s، اسحب الصف أفقيًا إلى اليسار أو اليمين. لإعادة ترتيب %1$s في القائمة، اسحب المرساة الموجودة على اليسار رأسيًا.\n\nلمسح الإعدادات أو إعادة تعيينها إلى الوضع الافتراضي، حدد خيار إعادة التعيين.</string>
+    <string name="shortcut_action_ambient_display">عرض الشاشة المحيطة</string>
+    <string name="shortcut_action_vol_up">رفع الصوت</string>
+    <string name="shortcut_action_vol_down">خفض الصوت</string>
+
+    <!-- Device specific settings -->
+    <string name="screen_off_gesture_settings_title">إيماءات الشاشة المغلقة</string>
+
+    <!-- Touchscreen gesture haptic feedback -->
+    <string name="touchscreen_gesture_haptic_feedback">استجابة لمسية</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">الاهتزاز عند اكتشاف إيماءة على شاشة اللمس</string>
+
+    <!-- Kcal -->
+    <string name="kcal_title">التحكم في ألوان الشاشة</string>
+    <string name="kcal_summary">معايرة ألوان الشاشة باستخدام KCAL</string>
+    <string name="kcal_enabled_title">تفعيل KCAL</string>
+    <string name="kcal_enabled_summary">تشغيل معايرة الشاشة باستخدام KCAL</string>
+    <string name="kcal_red">الأحمر</string>
+    <string name="kcal_green">الأخضر</string>
+    <string name="kcal_blue">الأزرق</string>
+    <string name="kcal_saturation">التشبع</string>
+    <string name="kcal_contrast">التباين</string>
+    <string name="menu_reset">إعادة تعيين</string>
+    <string name="kcal_color_temp">درجة حرارة اللون (K)</string>
+
+    <string name="kcal_greyscale_title">التدرج الرمادي</string>
+    <string name="kcal_greyscale_summary">تعطيل التشبع اللوني بالكامل</string>
+    <string name="presets_list_title">تحميل إعداد مسبق لـ KCAL</string>
+    <string name="default_values">افتراضي</string>
+    <string name="version_1">الإصدار 1</string>
+    <string name="version_2">الإصدار 2</string>
+    <string name="version_3">الإصدار 3</string>
+    <string name="triluminous">Triluminous</string>
+    <string name="deep_black_and_white">أبيض وأسود عميق</string>
+    <string name="deep_natural">طبيعي عميق</string>
+    <string name="cool_amoled">Amoled بارد</string>
+    <string name="extreme_amoled">Amoled فائق</string>
+    <string name="warm_amoled">Amoled دافئ</string>
+    <string name="hybrid_mamba">Hybrid Mamba</string>
+    <string name="deep_amoled">Amoled عميق</string>
+    <string name="cold_amoled">Amoled بارد جديد</string>
+    <string name="clean_deep">عميق ونقي</string>
+    <string name="shamshung">Shamshung</string>
+    <string name="nature">طبيعة</string>
+    <string name="shamshung_cold">Shamshung بارد</string>
+    <string name="cold_as_ice">بارد جداً</string>
+    <string name="deep_saturated">عميق ومُشبع</string>
+    <string name="black_af">أسود مُشبع عميق</string>
+    <string name="kcal_hue">درجة اللون</string>
+    <string name="kcal_value">القيمة</string>
+
+    <!-- Audio -->
+    <string name="audio_title">الصوت</string>
+    <string name="switch_bar_on">تشغيل</string>
+    <string name="switch_bar_off">إيقاف</string>
+    <string name="audio_gain_settings">تضخيم الصوت</string>
+    <string name="gain_summary">تحسين مستوى صوت الأجهزة الصوتية</string>
+
+    <!-- Audio amplification -->
+    <string name="headphone_gain">مستوى صوت سماعة الرأس</string>
+    <string name="microphone_gain">مستوى صوت الميكروفون</string>
+
+    <!-- Clear speaker -->
+    <string name="clear_speaker_title">تنظيف السماعة</string>
+    <string name="clear_speaker_summary">تشغيل مقطع صوتي لمدة 30 ثانية لتنظيف السماعة</string>
+    <string name="clear_speaker_description">شغّل هذه الميزة مرة أو مرتين إذا وجدت أن سماعتك مسدودة قليلاً بسبب الغبار. اضبط مستوى صوت الوسائط إلى الحد الأقصى.\n\nإذا كانت السماعة مسدودة بشدة، شغّل هذه الميزة من 2 إلى 5 مرات أثناء هز جهازك بحيث تكون السماعة متجهة لأسفل.\n\nتحذير: تأكد من فصل أي سماعات رأس.</string>
+    
+    <!-- Vibration -->
+    <string name="vibration_title">الاهتزاز</string>
+    <string name="vibration_summary">تخصيص قوة الاهتزاز</string>
+    <string name="vibration_strength_system_title">اهتزاز النظام</string>
+    <string name="vibration_strength_notification_title">اهتزاز الإشعارات</string>
+    <string name="vibration_strength_call_title">اهتزاز المكالمات</string>
+</resources>
