@@ -7,6 +7,7 @@
 # Inherit some common AfterlifeOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
 $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device
