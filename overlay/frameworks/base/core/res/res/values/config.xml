@@ -1274,7 +1274,7 @@
          available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
 
-    <!-- Package that contains udfps animation customization or empty to disable -->
-    <string name="config_udfps_animation_customization_package"></string>
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
 
 </resources>

@@ -1,14 +1,16 @@
 #
-# Copyright (C) 2021-2022 The LineageOS Project
+# Copyright (C) 2021-2026 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common InfinityX stuff
+# Inherit some common Project Infinity X stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 INFINITY_MAINTAINER := KaderBava
+WITH_GAPPS := true
+TARGET_SHIPS_GOOGLE_DIALER := true
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device

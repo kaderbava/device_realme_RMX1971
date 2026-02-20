@@ -19,6 +19,8 @@ cc_prebuilt_binary {
         "SoundAmplifierPrebuilt_v4.7.638126989",
         "talkback",
         "SwitchAccessPrebuilt_1.15.0.629986523",
+        "UdfpsAnimations",
+        "UdfpsIcons",
     ],
     strip: {
         none: true,
