@@ -33,7 +33,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.util.Log;
 import androidx.appcompat.app.AlertDialog;
-import androidx.preference.PreferenceFragmentCompat;
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 import androidx.preference.PreferenceManager;
 import androidx.preference.SwitchPreferenceCompat;
 import androidx.preference.ListPreference;
@@ -49,7 +49,7 @@ import org.device.RealmeParts.Touch.ScreenOffGestureSettings;
 import org.device.RealmeParts.audio.SoundControlSettingsActivity;
 import org.device.RealmeParts.kcal.DisplayCalibration;
 
-public class RealmeParts extends PreferenceFragmentCompat
+public class RealmeParts extends SettingsBasePreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     private static final String KEY_CATEGORY_GRAPHICS = "graphics";
