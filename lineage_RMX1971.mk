@@ -15,6 +15,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 DERPFEST_BUILD_TYPE := Official
 DERPFEST_BUILD_VARIANT := Stable
 TARGET_DISABLE_EPPE := true
+TARGET_SUPPORTS_BLUR := false
 
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1971
