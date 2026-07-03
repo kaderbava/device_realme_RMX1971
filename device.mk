@@ -141,6 +141,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FM2
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
