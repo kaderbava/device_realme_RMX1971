@@ -32,9 +32,6 @@ type sysfs_lcd_file, sysfs_type, fs_type;
 type sysfs_iio, sysfs_type, fs_type;
 type sysfs_restart, sysfs_type, fs_type;
 
-# Smart Charging
-type sysfs_scharge, sysfs_type, fs_type;
-
 # Kcal
 type proc_kcal_file, sysfs_type, fs_type;
 

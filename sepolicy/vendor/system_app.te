@@ -13,7 +13,6 @@ allow system_app sysfs_fps:file rw_file_perms;
 r_dir_file(system_app, sysfs_battery_supply);
 
 # Realme Parts
-allow system_app sysfs_scharge:file { getattr open read write };
 allow system_app sysfs_usb_supply:file { getattr open read write };
 allow system_app sysfs_oppo_display:dir search;
 allow system_app sysfs_oppo_display:file { getattr open read write };
